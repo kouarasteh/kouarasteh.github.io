@@ -6,7 +6,7 @@
 			html, body {
 				margin: 0;
 				padding: 0;
-				background: #fff;
+				background: #333;
 				height: 100%;
 				width: 100%;
 			}
@@ -22,7 +22,6 @@
 
 	<body>
 		<canvas id="confetti" width="1" height="1"></canvas>
-        <h1>H Y P E</h1>
 		<script type="text/javascript">
 			var retina = window.devicePixelRatio,
 
@@ -69,13 +68,13 @@
 			}(window));
 
 			document.addEventListener("DOMContentLoaded", function() {
-				var speed = 50,
+				var speed = 60,
 					duration = (1.0 / speed),
 					confettiRibbonCount = 11,
-					ribbonPaperCount = 30,
+					ribbonPaperCount = 50,
 					ribbonPaperDist = 8.0,
-					ribbonPaperThick = 8.0,
-					confettiPaperCount = 95,
+					ribbonPaperThick = 10.0,
+					confettiPaperCount = 200,
 					DEG_TO_RAD = PI / 180,
 					RAD_TO_DEG = 180 / PI,
 					colors = [
