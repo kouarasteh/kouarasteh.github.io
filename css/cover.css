@@ -26,8 +26,6 @@ a:hover {
 
 html{
     font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
 }
 body {
   height: 100%;
