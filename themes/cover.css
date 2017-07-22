@@ -24,29 +24,42 @@ a:hover {
  * Base structure
  */
 
-html,
+html{
+
+    background: url("../assets/img/kouroshgreymask.png") no-repeat 0% center fixed; 
+    background-size: contain;
+    background-color: #404043;
+    height: 100%;
+    min-height: 100%;
+}
 body {
   height: 100%;
-  background-color: #333;
+  min-height: 100%;
+  background-color: transparent;
+
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  height: 100%;
+  min-height: 100%;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
   width: 100%;
-  height: 100%; /* For at least Firefox */
-  min-height: 100%;
+  height: inherit;
   -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
           box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
+  height: 100%;
+  min-height: 100%;
+
 }
 .cover-container {
   margin-right: auto;
