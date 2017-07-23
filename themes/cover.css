@@ -82,6 +82,7 @@ body {
 
 .masthead-nav > li {
   display: inline-block;
+  text-decoration: none;
 }
 .masthead-nav > li + li {
   margin-left: 20px;
