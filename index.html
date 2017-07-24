@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, height = device-height">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Coming Soon...">
+    <meta name="description" content="Kourosh Arasteh's personal website">
     <meta name="author" content="Kourosh Arasteh">
     <link rel="icon" href="docs/favicon.ico">
     <title>Kourosh Arasteh</title>
     <!-- Bootstrap core CSS -->
-    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="./themes/cover.css" rel="stylesheet">
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="./assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="http://kourosharasteh.com/assets/js/ie-emulation-modes-warning.js"></script>
     <!-- Open Sans Font-->
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -30,38 +30,44 @@
     <div class="site-wrapper">
         <div class="site-wrapper-inner">
             <div class="cover-container">
+<!--NavBar Wrappers-->
                 <div class="masthead clearfix">
                     <div class="inner">
-                        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-                            <div class="container-fluid">
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                    <a class="navbar-brand" href="#">Kourosh Arasteh</a>
-                                </div>
-                                <div class="collapse navbar-collapse" id="navbar-collapse">
-                                    <ul class="nav navbar-nav navbar-right">
-                                        <li class="active"><a href="#">Home</a></li>
-                                        <li><a href="#">Hardware</a></li>
-                                        <li><a href="#">Software</a></li>
-                                        <li><a href="#">Resume</a></li>
-                                        <li><a href="#">Contact</a></li>
-                                    </ul>
-                                </div>
+                        <nav class="navbar navbar-toggleable-md fixed-top">
+                            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon">☰</span>
+                            </button>
+                            <a class="navbar-brand" href="#">Kourosh Arasteh</a>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Hardware</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Software</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Resume</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="http://kourosharasteh.com/pages/contact.html">Contact</a>
+                                    </li>
+                                </ul>
                             </div>
                         </nav>
                     </div>
                 </div>
+<!--Cover Page Under Construction Banner-->
                 <div class="inner cover">
                     <h1 class="cover-heading"></h1>
-                    <p class="lead" style="height: 100%">This page is coming soon...</p>
+                    <p class="lead" style="height: 100%">This page is under construction!</p>
                       <a href="confetti" class="btn btn-lg btn-default" id="hypebutton">Get Hype</a>               
                     </p>
                 </div>
+<!---Footer (Currently Unused)-->
                 <div class="mastfoot">
                     <div class="inner">
                        <p></p>                    
@@ -73,10 +79,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="./dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
