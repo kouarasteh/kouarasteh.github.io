@@ -83,7 +83,7 @@ body {
 
 }
 #activetab{
-    background-color: rgba(64,64,100,0.4);
+    font-weight: bold !important;
 }
 .nav-item,
 .navbar {
@@ -100,46 +100,48 @@ height: 100%; width: 100%;
    text-align: center;
    font-size: 36px;
 }
-
-.masthead-brand {
+/*start
+    */
+.navbar-brand {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.masthead-nav > li {
+.navbar-nav > li {
   display: inline-block;
   text-decoration: none;
+    margin-left: 20px;
+
 }
-.masthead-nav > li + li {
+.navbar-nav > li + li {
   margin-left: 20px;
 }
-.masthead-nav > li > a {
+.navbar-nav > li > a {
   padding-right: 0;
   padding-left: 0;
   font-size: 16px;
-  font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
   background-color: transparent;
   border-bottom-color: #a9a9a9;
   border-bottom-color: rgba(255,255,255,.25);
 }
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
   color: #fff;
   border-bottom-color: #fff;
 }
 
 @media (min-width: 768px) {
-  .masthead-brand {
+  .navbar-brand {
     float: left;
   }
-  .masthead-nav {
+  .navbar-nav {
     float: right;
   }
 }
@@ -237,7 +239,7 @@ height: 100%; width: 100%;
 
 @media (min-width: 768px) {
   /* Pull out the header and footer */
-  .masthead {
+  .navbar {
     position: fixed;
     top: 0;
   }
@@ -250,7 +252,7 @@ height: 100%; width: 100%;
     vertical-align: auto;
   }
   /* Handle the widths */
-  .masthead,
+  .navbar,
   .mastfoot,
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
@@ -258,7 +260,7 @@ height: 100%; width: 100%;
 }
 
 @media (min-width: 992px) {
-  .masthead,
+  .navbar,
   .mastfoot,
   .cover-container {
     width: 100%;
