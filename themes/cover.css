@@ -107,6 +107,8 @@ body {
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
+  background-color: transparent;
+
 }
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
