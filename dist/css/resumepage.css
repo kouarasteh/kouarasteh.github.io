@@ -217,96 +217,97 @@ span.anchor {
 .course {
     background: url("../../assets/img/circle.png") no-repeat;
     background-position: center center;
-    background-size: 60%;
+    background-size: contain;
+    padding-bottom: 10px;
 }
 #ece110{
     background: url("../../assets/img/ece110icon.png") no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center center;
 }
 #ece120{
     background: url("../../assets/img/ece120icon.png") no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center center;
 }
 #math241{
     background: url("../../assets/img/math241icon.png") no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center center;
 }
 #phys212{
     background: url("../../assets/img/phys212icon.png") no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center center;
 }
 #chem102{
     background: url("../../assets/img/chem102icon.png") no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center center;
 }
 #ece210{
     background: url("../../assets/img/ece210icon.png") no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center center;
 }
 #ece220{
     background: url("../../assets/img/ece220icon.png") no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center center;
 }
 #ece313{
     background: url("../../assets/img/ece313icon.png") no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center center;
 }
 #ece385{
     background: url("../../assets/img/ece385icon.png") no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center center;
 }
 #cs173{
     background: url("../../assets/img/cs173icon.png") no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center center;
 }
 #math286{
     background: url("../../assets/img/math286icon.png") no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center center;
 }
 #phys213{
     background: url("../../assets/img/phys213icon.png") no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center center;
 }
 #phys214{
     background: url("../../assets/img/phys214icon.png") no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center center;
 }
 #ece310{
     background: url("../../assets/img/ece310icon.png") no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center center;
 }
 #ece329{
     background: url("../../assets/img/ece329icon.png") no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center center;
 }
 #ece342{
     background: url("../../assets/img/ece342icon.png") no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center center;
 }
 #cs225{
     background: url("../../assets/img/cs225icon.png") no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center center;
 }
 #ece470{
     background: url("../../assets/img/ece470icon.png") no-repeat;
-    background-size: 60%;
+    background-size: contain;
     background-position: center center;
 }
 #year1,
@@ -316,25 +317,21 @@ span.anchor {
     height: 30%;
 }
 #iconlabel{
+    background-color: rgba(255,255,255,0.75);
     color: white;
     margin: 0px;
     text-align: center;
     font-weight: bold;
-    padding-top: 100%;
-    padding-left: 5%;
+    margin-top: 100%;
+    padding: 5%;
     line-height: 100%;
-    height: 100%;
     width: 100%;
 }
 .popover{
     color:black;
     text-align: center;
 }
-#110to210{
-    position: absolute;
-    margin-left:0%;
-    display: inline-block;
-}
+
 /*
 *    Experience Section
 */
