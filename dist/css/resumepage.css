@@ -191,9 +191,11 @@ span.anchor {
     width: 100%;
     height: 30%;
     overflow: hidden;
+    margin-left: 0px;
 }
 #imageholder{
     height: 100%;
+    padding-right: 0px;
 
 }
 #eduicon{
@@ -202,110 +204,132 @@ span.anchor {
     float: right;
 }
 #educationdetailholder{
-
+    height: 100%;
+    padding: 5px;
 }
 #educationdetail{
     text-align: left;
-    line-height: 1.1;
     float: left;
-    font-size: 24px;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    padding: 5px;
 }
 #courses{
     height: 70%;
     width: 100%;
+
 }
 .course {
-    background: url("../../assets/img/circle.png") no-repeat;
-    background-position: center center;
+    width: 12.5%;
+    background-position: center bottom;
     background-size: contain;
-    padding-bottom: 10px;
+    padding: 0px;
 }
 #ece110{
+    height: 80%;
     background: url("../../assets/img/ece110icon.png") no-repeat;
     background-size: contain;
     background-position: center center;
 }
 #ece120{
+        height: 80%;
     background: url("../../assets/img/ece120icon.png") no-repeat;
     background-size: contain;
     background-position: center center;
 }
 #math241{
+        height: 80%;
     background: url("../../assets/img/math241icon.png") no-repeat;
     background-size: contain;
     background-position: center center;
 }
 #phys212{
+        height: 80%;
     background: url("../../assets/img/phys212icon.png") no-repeat;
     background-size: contain;
     background-position: center center;
 }
 #chem102{
+        height: 80%;
     background: url("../../assets/img/chem102icon.png") no-repeat;
     background-size: contain;
     background-position: center center;
 }
 #ece210{
+        height: 80%;
     background: url("../../assets/img/ece210icon.png") no-repeat;
     background-size: contain;
     background-position: center center;
 }
 #ece220{
+        height: 80%;
     background: url("../../assets/img/ece220icon.png") no-repeat;
     background-size: contain;
     background-position: center center;
 }
 #ece313{
+        height: 80%;
     background: url("../../assets/img/ece313icon.png") no-repeat;
     background-size: contain;
     background-position: center center;
 }
 #ece385{
+        height: 80%;
     background: url("../../assets/img/ece385icon.png") no-repeat;
     background-size: contain;
     background-position: center center;
 }
 #cs173{
+        height: 80%;
     background: url("../../assets/img/cs173icon.png") no-repeat;
     background-size: contain;
     background-position: center center;
 }
 #math286{
+        height: 80%;
     background: url("../../assets/img/math286icon.png") no-repeat;
     background-size: contain;
     background-position: center center;
 }
 #phys213{
+        height: 80%;
     background: url("../../assets/img/phys213icon.png") no-repeat;
     background-size: contain;
     background-position: center center;
 }
 #phys214{
+        height: 80%;
     background: url("../../assets/img/phys214icon.png") no-repeat;
     background-size: contain;
     background-position: center center;
 }
 #ece310{
+        height: 80%;
     background: url("../../assets/img/ece310icon.png") no-repeat;
     background-size: contain;
     background-position: center center;
 }
 #ece329{
+            height: 80%;
     background: url("../../assets/img/ece329icon.png") no-repeat;
     background-size: contain;
     background-position: center center;
 }
 #ece342{
+            height: 80%;
     background: url("../../assets/img/ece342icon.png") no-repeat;
     background-size: contain;
     background-position: center center;
 }
 #cs225{
+            height: 80%;
     background: url("../../assets/img/cs225icon.png") no-repeat;
     background-size: contain;
     background-position: center center;
 }
 #ece470{
+        height: 80%;
     background: url("../../assets/img/ece470icon.png") no-repeat;
     background-size: contain;
     background-position: center center;
@@ -313,19 +337,18 @@ span.anchor {
 #year1,
 #year2,
 #year3{
+    padding-bottom: 5px !important;
     width: 100%;
-    height: 30%;
+    height: 25%;
 }
 #iconlabel{
-    background-color: rgba(255,255,255,0.75);
     color: white;
-    margin: 0px;
+    font-weight: bolder;
     text-align: center;
-    font-weight: bold;
-    margin-top: 100%;
-    padding: 5%;
-    line-height: 100%;
     width: 100%;
+    height: 20%;
+    margin-top: 0px;
+    margin-bottom: auto;
 }
 .popover{
     color:black;
@@ -363,7 +386,7 @@ barholder{
 #jobbarholder1{
     background: linear-gradient(90deg,rgba(0,255,0,0.3),rgba(0,255,0,0.2) 10%,rgba(0,0,0,0));
     width: 100%;
-    margin-top: 20%;
+    margin-top: 15%;
     position: absolute;
     height: 16px;
         border-radius: 10px;
@@ -381,7 +404,7 @@ barholder{
 #jobbarholder2 {
     background: linear-gradient(90deg,rgba(2,117,216,0.5),rgba(2,117,216,0.2) 10%,rgba(0,0,0,0));
     width: 100%;
-    margin-top: 22.5%;
+    margin-top: 20%;
     position: absolute;
     height: 16px;
         border-radius: 10px;
@@ -416,7 +439,7 @@ barholder{
     color: white;
         background: linear-gradient(90deg,rgba(247, 218, 56,0.38),rgba(247, 218, 56,0.2) 10%,rgba(0,0,0,0));
     width: 100%;
-    margin-top: calc(27.5% + 5px);
+    margin-top: calc(30% + 5px);
     position: absolute;
     height: 16px;
     border-radius: 10px;
@@ -429,7 +452,7 @@ barholder{
     color: white;
         background: linear-gradient(90deg,rgba(255, 150, 0,0.5),rgba(255, 150, 0,0.2) 10%,rgba(0,0,0,0));
     width: 100%;
-    margin-top: calc(30% + 5px);
+    margin-top: calc(35% + 5px);
     position: absolute;
     height: 16px;
     border-radius: 10px;
@@ -570,6 +593,11 @@ barholder{
  * Affix and center
  */
 @media (max-width: 767px) { 
+    #resumecontainer{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        width: 100% !important;
+    }
     #resume-navbar{
         display:none;
     }
@@ -584,7 +612,8 @@ barholder{
     }
     #imageholder{
         width: 100%;
-        align-self: center;
+        align-self: flex-start;
+        margin-left: 0px;
     }
     #educationdetailholder{
         width: 100%;
@@ -602,7 +631,24 @@ barholder{
     #eduicon{
         float: none;
     }
+    .sub{
+        height:calc(100vh - 80px);
 
+    }
+    #skillsholder{
+        height: 100%;
+    }
+    #skillsub{
+        height: 1400px;
+    }
+    .progrow{
+        height: 120px;
+    }
+    .col-md-4{
+        height: 30px;
+        font-size: 12px;
+        margin-top: 14px;
+    }
 }
 @media (min-width: 768px) {
   /* Pull out the header and footer */
