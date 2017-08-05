@@ -27,9 +27,10 @@ a:hover {
 html{
 
     background: url("http://kourosharasteh.com/assets/img/kouroshgreymask.png") no-repeat center center fixed;
+    background-attachment: fixed !important;
     background-size: cover;
     background-color: #404043;
-    height: 100%;
+    height: 100vh;
     min-height: 100%;
 }
 body {
