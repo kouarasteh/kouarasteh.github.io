@@ -666,6 +666,9 @@ barholder{
         font-size: 12px;
         margin-top: 14px;
     }
+    .progress-bar{
+        data-placement: auto !important;
+    }
 }
 @media (min-width: 768px) {
   /* Pull out the header and footer */
