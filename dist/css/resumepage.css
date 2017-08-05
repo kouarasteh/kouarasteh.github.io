@@ -650,10 +650,6 @@ barholder{
         font-size: 12px;
         margin-top: 14px;
     }
-    html{
-        background-attachment: scroll;
-        h
-    }
 }
 @media (min-width: 768px) {
   /* Pull out the header and footer */
