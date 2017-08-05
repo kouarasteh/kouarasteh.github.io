@@ -26,7 +26,7 @@ a:hover {
 
 html{
 
-    background: url("http://kourosharasteh.com/assets/img/kouroshgreymask.png") no-repeat center center fixed;
+    //background: url("http://kourosharasteh.com/assets/img/kouroshgreymask.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-color: #404043;
@@ -35,17 +35,19 @@ html{
 }
 html::after{
       content:"";
-      position:fixed; // stretch a fixed position to the whole screen
+      position:fixed; 
       top:0;
-      height:100vh; // fix for mobile browser address bar appearing disappearing
+      height:100vh;
       left:0;
       right:0;
-      z-index:-1; // needed to keep in the background
+      z-index:-1; 
       background: url("http://kourosharasteh.com/assets/img/kouroshgreymask.png") center center;
       -webkit-background-size: cover;
-      -moz-background-size: cover;
+      -moz-background-size: cover;  
       -o-background-size: cover;
       background-size: cover;
+       height: 100vh;
+    min-height: 100%;
 }
 body {
   height: 100%;
