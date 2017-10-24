@@ -1,0 +1,119 @@
+html{
+    font-family: 'Rajdhani', sans-serif !important;
+    background: #5CDB95; /* Standard syntax */
+    height: 100vh;
+    min-height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+body{
+    background-color: transparent;
+    height: 100vh;
+    width: 100vw;
+}
+#master{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+#headshot{
+  width: auto;
+  height: 100%;
+}
+#title{
+  height: 100%;
+  width: auto;
+  right: 0px;
+}
+#navcol{
+  width:200px;
+}
+#namebar{
+  position: fixed;
+  margin-top: 150px;
+  top:0px;
+  left: 85px;
+  width: 35px;
+  padding: 0px;
+  height: calc(100vh - 150px);
+}
+#nametag{
+  height: 150px;
+  width: 200px;
+  font-size: 50px;
+  font-family: 'Rajdhani', sans-serif !important;
+  text-align: center;
+  background-color: #05386B;
+  color: #5CDB95;
+  font-weight: bolder;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+}
+
+.navi{
+  font-family: 'Rajdhani', sans-serif !important;
+  height: calc((100vh - 150px)/4);
+  width: 35px;
+  margin: 0px;
+  background-color: #05386B;
+  text-align: center;
+
+}
+a{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  transform:rotate(90deg);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin-top: 25px;
+  font-size: 25px;
+  font-family: 'Rajdhani', sans-serif !important;
+  color: white;
+}
+a:hover{
+  color: #5CDB95;
+}
+#activetab{
+  font-weight: bolder;
+}
+#headline{
+  font-family: 'Rajdhani', sans-serif !important;
+  height: 5%;
+  margin-top: 10%;
+  font-size: 100px;
+  text-align: left;
+  color: white;
+}
+#timeline{
+  height: 40%;
+}
+#footer{
+  font-family: 'Rajdhani', sans-serif !important;
+  height: 50%;
+  margin-top: 5%;
+  font-size: 100px;
+  text-align: left;
+  color: white;
+}
+text{
+  font-family: 'Rajdhani', sans-serif !important;
+  font-size: 36px;
+}
+rect:hover{
+  opacity: 0.65;
+}
+.soc{
+  transform: none;
+  position: inherit;
+  margin: auto;
+}
+.soc:hover{
+  color: white;
+  opacity: 0.5;
+}
