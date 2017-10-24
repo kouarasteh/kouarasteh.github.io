@@ -87,7 +87,8 @@ body{
   padding: 0px;
   height: calc(100vh - 150px);
 }
-#nametag{
+#namebadge{
+  transform: none;
   height: 150px;
   width: 200px;
   font-size: 50px;
