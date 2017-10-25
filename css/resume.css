@@ -87,7 +87,7 @@ a:hover{
   font-family: 'Rajdhani', sans-serif !important;
   height: 5%;
   margin-top: 10%;
-  font-size: 100px;
+  font-size: 90px;
   text-align: left;
   color: white;
 }
@@ -97,8 +97,8 @@ a:hover{
 #footer{
   font-family: 'Rajdhani', sans-serif !important;
   height: 50%;
-  margin-top: 5%;
-  font-size: 100px;
+  margin-top: 2.5%;
+  font-size: 90px;
   text-align: left;
   color: white;
 }
