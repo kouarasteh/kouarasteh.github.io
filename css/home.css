@@ -89,13 +89,15 @@ a:hover{
   #headline{
     visibility: visible;
     width: 100vw;
+    height: 50vh;
     margin: 0px;
     position: fixed;
     bottom: 0px;
     left: 0px;
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 65vh;
+    margin-top: 15%;
+    padding-top: 15vh;
     padding-bottom: 10vh;
   }
   #greeting{

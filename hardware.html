@@ -11,7 +11,24 @@
     </head>
     <body>
       <div class = "d-flex flex-row" id="master">
-        <div class="col-2" id="navcol">
+        <div class="row container" id = "title">
+          <div class = "d-flex flex-row row" id="navibar">
+              <div id="navibadge">KOUROSH</br>ARASTEH</div>
+              <div class = "mobinav col">
+                <a href="./hardware.html">HARDWARE</a>
+              </div>
+              <div class = "mobinav col">
+                <a href="./software.html">SOFTWARE</a>
+              </div>
+              <div class = "mobinav col">
+                <a href="./resume.html">RESUME</a>
+              </div>
+              <div class = "mobinav col">
+                <a href="./contact.html">CONTACT</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-3" id="navcol">
           <div class="row" id="nametag"><a id = "namebadge" href="./index.html">KOUROSH ARASTEH</a></div>
             <div id="namebar">
                   <div class = "navi row">
@@ -29,7 +46,7 @@
             </div>
         </div>
         <div class = "col" id="carouselcardholder">
-          <div class = "container">
+          <div class = "container" id="slideshowholder">
             <div id="hardwareCarousel" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#hardwareCarousel" data-slide-to="0" class="active"></li>
@@ -61,7 +78,7 @@
               </div>
             </div>
         </div>
-        <div class = "container">
+        <div class = "container" id="hardwarecardholder">
           <div class="card-group">
             <div class="card">
               <img class="card-img-overlay" src="./assets/project.png" alt="Card image cap">
