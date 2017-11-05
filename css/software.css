@@ -5,6 +5,9 @@ html{
     height: 100vh;
     min-height: 100vh;
 }
+#hamburger{
+  display: none;
+}
 #title{
   display: none;
 }
@@ -171,13 +174,14 @@ a:hover{
     width: 100%;
   }
   .card-group{
+    display: flex;
     width: 100vw;
     height: 20vh;
+    overflow: hidden;
   }
   .card{
-    width: 30vw;
-    margin: 0px !important;
-    padding: 0px !important;
+    width: 33.3vw;
+    overflow: hidden;
     height: 20vh;
   }
 
@@ -229,4 +233,44 @@ a:hover{
     font-weight: normal;
   }
 
+}
+@media screen and (orientation: landscape){
+  @media(max-height: 650px){
+    #namebadge{
+      width: 100px;
+      height: 75px;
+      font-size: 25px;
+    }
+    #namebar{
+      display: none;
+    }
+    #hamburger{
+      transform-origin: center;
+      display: inline;
+      color: white;
+      background-color: #05386B;
+      position: fixed;
+      line-height: 22.5px;
+      text-align: center;
+      left: 37.5px;
+      width: 25px;
+      height: 25px;
+      top: 80px;
+      font-size: 20px;
+
+    }
+    a{
+      transform: none;
+    }
+  }
+}
+@media(max-height:350px){
+  #softwarecardholder{
+    display: none;
+  }
+  #slideshowholder{
+    height: 100%;
+    width: 100%;
+  }
+}
 }
