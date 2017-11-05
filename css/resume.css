@@ -87,6 +87,9 @@ body{
   font-family: 'Rajdhani', sans-serif !important;
   color: white;
 }
+a{
+  color: white;
+}
 a:hover{
   color: #5CDB95;
 }
