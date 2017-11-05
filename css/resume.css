@@ -73,7 +73,7 @@ body{
   text-align: center;
 
 }
-a{
+.navop{
   margin: 0px;
   padding: 0px;
   text-align: center;
@@ -124,6 +124,7 @@ rect:hover{
   position: inherit;
   margin: auto;
   font-size: 5vw;
+  color: white;
 }
 .soc:hover{
   color: white;

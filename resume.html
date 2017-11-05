@@ -11,9 +11,6 @@
     </head>
     <body>
       <script src="https://use.fontawesome.com/17458651ac.js"></script>
-      <script>
-      $( "#chabot" ).tooltip({ content: '<img src="http://icdn.pro/images/fr/a/v/avatar-barbe-brun-homme-utilisateur-icone-9665-128.png" />' });
-      </script>
       <div class = "d-flex flex-row" id="master">
         <div class="row container" id = "title">
           <div class = "d-flex flex-row row" id="navibar">
@@ -39,16 +36,16 @@
           </a></div>
             <div id="namebar">
                   <div class = "navi row">
-                    <a href="./hardware.html">HARDWARE</a>
+                    <a class="navop" href="./hardware.html">HARDWARE</a>
                   </div>
                   <div class = "navi row">
-                    <a href="./software.html">SOFTWARE</a>
+                    <a class="navop" href="./software.html">SOFTWARE</a>
                   </div>
                   <div class = "navi row">
-                    <a href="./resume.html"  id="activetab">RESUME</a>
+                    <a class="navop" href="./resume.html"  id="activetab">RESUME</a>
                   </div>
                   <div class = "navi row">
-                    <a  href="./contact.html">CONTACT</a>
+                    <a  class="navop" href="./contact.html">CONTACT</a>
                   </div>
             </div>
           </div>
@@ -56,7 +53,6 @@
             <div id="headline">HERE'S WHAT I'VE DONE SO FAR.</div>
             <div id="timeline">
               <svg height=100% width=100%>
-
                 <line x1="0" y1="80%" x2="100%" y2="80%" style="stroke:white;stroke-width:5" />
                 <circle cx="10%" cy="80%" r="1vw" stroke="white" stroke-width="3" fill="#05386B" />
                 <text x="8%" y="100%" fill="white">2010</text>
@@ -84,8 +80,8 @@
 
                 <line x1="0" y1="70%" x2="100%" y2="70%" style="stroke:#8EE4AF;stroke-width:5" />
                 <rect id="chabot" x="45%" y="67.5%" rx="10" ry="10" width="12.5%" height="5%" style="fill:#8EE4AF;stroke:transparent;stroke-width:5">
-                  <title >Chabot Space & Science Center </br>Observatory Volunteer</br>5/13 - 8/14</title>
-                </rect>
+                <title >Chabot Space & Science Center </br>Observatory Volunteer</br>5/13 - 8/14</title>
+              </rect>
                 <rect id="jmmc" x="57.5%" y="67.5%" rx="10" ry="10" width="7.5%" height="5%" style="fill:#8EE4AF;stroke:transparent;stroke-width:5">
                 <title >John Muir Medical Center </br>ED Trauma Room</br>8/14 - 5/15</title>
               </rect>
@@ -132,6 +128,11 @@
               </rect>
 
               </svg>
+              <script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+});
+</script>
             </div>
             <div id="footer">
               LOOKING FOR LINKEDIN?<a class="soc col" href="https://linkedin.com/in/kourosharasteh"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></br>
@@ -141,6 +142,7 @@
       </div>
         <script src="dist/bundle.js"></script>
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     </body>
