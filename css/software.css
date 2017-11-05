@@ -16,12 +16,15 @@ body{
   width: 100vw;
   background-color: transparent;
 }
-#slideshowholder, #softwarecardholder{
+#slideshowholder{
   height: 50vh;
   width: 50vw;
   align-self: center;
   margin-left: 7.5%;
   color: white;
+}
+#softwarecardholder{
+  margin: 0px;
 }
 #softwareCarousel{
   width: 100%;
@@ -142,6 +145,9 @@ a:hover{
 }
 
 @media screen and (orientation: portrait){
+  #main{
+    width: 100vw !important;
+  }
   #title{
     display: inline;
     padding-left: 15px;

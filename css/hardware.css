@@ -5,6 +5,9 @@ html{
     height: 100vh;
     min-height: 100vh;
 }
+#hamburger{
+  display: none;
+}
 #title{
   display: none;
 }
