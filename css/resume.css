@@ -16,6 +16,7 @@ body{
 }
 #hamburger{
   display: none;
+  color: white;
 }
 #title{
   display: none;
@@ -167,7 +168,7 @@ rect:hover{
     margin-left: 2.5%;
     height: 15vw;
     width: 20.5vw;
-    font-size: 5vw;
+    font-size: 4.5vw;
     overflow: hidden;
     vertical-align: center;
     text-align: center;
