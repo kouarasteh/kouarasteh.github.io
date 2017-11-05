@@ -5,6 +5,12 @@ html{
     height: 100vh;
     min-height: 100vh;
 }
+h3,h4, p{
+  font-family: 'Rajdhani', sans-serif !important;
+  background-color: #05386B;
+  color: #5CDB95;
+  font-weight: bold;
+}
 #hamburger{
   display: none;
 }
@@ -53,6 +59,7 @@ body{
 .card{
   color: white;
   background-color: #05386B;
+  overflow: hidden;
 }
 .card-body{
   height: 100%;
