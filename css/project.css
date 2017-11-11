@@ -1,7 +1,14 @@
+html{
+  overflow-x: hidden;
+}
 body{
   height: 300vh;
   background-color: #5CDB95;
   overflow-x: hidden;
+}
+div{
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 h1{
   font-family: 'Rajdhani', sans-serif !important;
@@ -136,6 +143,13 @@ a:hover{
   color: #05386B;
 }
 @media screen and (orientation: portrait){
+  #pagebody{
+    margin-top: 15%;
+    width: 100vw;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+  }
   #title{
     display: inline;
     padding-left: 15px;
@@ -214,7 +228,13 @@ a:hover{
     margin-top: 5%;
     height: 10%;
   }
-
+  .row{
+    margin-left: 0px !important;
+    width: 100vw;
+  }
+  .col-3{
+    width: 50vw;
+  }
 }
 @media screen and (orientation: landscape){
   @media(max-height: 650px){

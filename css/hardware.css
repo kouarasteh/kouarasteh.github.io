@@ -46,7 +46,9 @@ body{
   object-fit: cover;
 }
 .carousel-item{
-  align-content: center;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   height: 50vh;
   width: 50vw;
   max-height: 100% !important;
