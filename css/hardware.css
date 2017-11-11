@@ -162,6 +162,10 @@ a:hover{
 }
 
 @media screen and (orientation: portrait){
+  .carousel-item{
+    width: 100vw !important;
+    margin: 0px !important;
+  }
   #main{
     width: 100vw !important;
   }
