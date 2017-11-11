@@ -259,7 +259,9 @@ a:hover{
     color: white;
     font-weight: normal;
   }
-
+  .card-text{
+    font-size: 3vw;
+  }
 }
 @media screen and (orientation: landscape){
   @media(max-height: 650px){
