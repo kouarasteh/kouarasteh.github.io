@@ -5,6 +5,7 @@ body{
   height: 300vh;
   background-color: #5CDB95;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 div{
   overflow-x: hidden;
@@ -88,6 +89,7 @@ p{
   top: 0px;
   left: 0px;
   margin: 0px;
+  overflow-y: visible;
 }
 
 .navi{
@@ -142,6 +144,7 @@ a:hover{
 .soc:hover{
   color: #05386B;
 }
+
 @media screen and (orientation: portrait){
   #pagebody{
     margin-top: 15%;
@@ -186,6 +189,7 @@ a:hover{
     background-color: #05386B;
     color: #5CDB95;
     font-weight: bolder;
+    overflow-y: visible;
   }
   .mobinav{
     margin-top: 6vw;
@@ -231,9 +235,6 @@ a:hover{
   .row{
     margin-left: 0px !important;
     width: 100vw;
-  }
-  .col-3{
-    width: 50vw;
   }
 }
 @media screen and (orientation: landscape){
