@@ -1,0 +1,30 @@
+@font-face{
+  font-family: 'ps';
+  src: url('fonts/Product Sans Regular.ttf')
+}
+@font-face{
+  font-family: 'ps';
+  src: url('fonts/Product Sans Bold.ttf')
+  font-weight: bold;
+}
+.navbar-brand, .nav-link{
+  font-family:'ps'
+  font-weight: bold;
+}
+.navbar{
+  background-color: white !important
+}
+body{
+  position: relative;
+}
+.toptitle{
+  padding-top: 40px;
+  font-family:'ps';
+  font-weight: bold;
+  font-size: 64px;
+  letter-spacing: 4px;
+}
+#imageholder{
+  position: relative;
+  color: white;
+}

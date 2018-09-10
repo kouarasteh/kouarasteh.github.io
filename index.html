@@ -1,50 +1,182 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-    <head>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108694749-1"></script>
-      <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      gtag('config', 'UA-108694749-1');
-      </script>
-        <title>Kourosh Arasteh</title>
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-	      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/home.css">
-    </head>
-    <body>
-      <div class = "d-flex flex-row" id="master">
-        <img src="./assets/kourosh.jpg" id="headshot"></img>
-        <div class="col container" id = "title">
-          <div class = "d-flex flex-row row" id="namebar">
-              <div id="nametag">KOUROSH ARASTEH</div>
-              <div class = "navi col">
-                <a href="./hardware.html">HARDWARE</a>
-              </div>
-              <div class = "navi col">
-                <a href="./software.html">SOFTWARE</a>
-              </div>
-              <div class = "navi col">
-                <a href="./resume.html">RESUME</a>
-              </div>
-              <div class = "navi col">
-                <a href="./contact.html">CONTACT</a>
-              </div>
-          </div>
-          <div class ="row" id="headline">
-            <div class = "col" id="greeting">HI, I'M KOUROSH.</br>I LIKE TO BUILD THINGS.</br>LIKE THIS SITE.</br>TAKE A LOOK AROUND.</div>
-          </div>
-
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <title>Hello, world!</title>
+  </head>
+  <body data-spy="scroll" data-target=".navbar">
+    <nav class ="navbar navbar-expand-lg navbar-light sticky-top">
+      <a class ="navbar-brand">Kourosh</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a data-scroll class="nav-link" href="#">Me <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#resume">Contact</a>
+          </li>
+        </ul>
+    </div>
+    </nav>
+    <div class ="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-8" id="imageholder">
+          <img src="images/headshot.png" class="img-fluid">
         </div>
       </div>
-        <script src="dist/bundle.js"></script>
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    </body>
+      <div class="row toptitle" style="background-color:white" id="projects">
+      SOFTWARE
+      </div>
+      <div class="row" style="background-color:black">
+        <div class="card-group">
+          <div class="card">
+            <img class="card-img-top" src="images/projs/mnist.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">MNIST via Naive-Bayes Classifer</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/projs/2player.gif" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Q-Learning vs SARSA Pong Agent</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/projs/livelidar.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Light LIDAR Data visualization</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/projs/reflex.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">3-deep Minimax Gomoku Agent</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/projs/orbit.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Retro Lunar Lander on Altera-DE2 FPGA</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row toptitle" style="background-color:white">
+      HARDWARE
+      </div>
+      <div class="row" style="background-color:black">
+        <div class="card-group">
+          <div class="card">
+            <img class="card-img-top" src="images/projs/dashvr.JPG" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">DashVR</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/projs/teslacoils.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Dual-Resonant Solid State Tesla Coils</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/projs/teaconcept.PNG" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">An Intelligent Tea Machine</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/projs/aquaponic.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">College Dorm Aquaponics</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/projs/pipelamp.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Pipe Lamp with Variable Resistive Dimmer</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row toptitle" id="resume" style="background-color:white; margin-top: 300px">
+      RESUME
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-2" style="text-align: center">
+          <a href="https://linkedin.com/in/kourosharasteh" target="_blank">
+            <i class="fa fa-linkedin-square" style="font-size:128px; text-decoration: none; color: black"></i>
+          </a>
+        </div>
+        <div class ="col-lg-2" style="text-align: center">
+          <a href="Kourosh_Arasteh_Resume_04_19_2018.pdf" target="_blank">
+            <i class="fa fa-file-text-o" style="font-size:128px; text-decoration: none; color: black"></i>
+          </a>
+        </div>
+      </div>
+      <div class="row toptitle" style="background-color:white">
+      CONTACT
+      </div>
+      <div class="row justify-content-center" style="margin-bottom: 300px">
+        <div class="col-lg-2" style="text-align: center">
+          <a href="https://facebook.com/kourosh.arasteh.7" target="_blank">
+            <i class="fa fa-facebook-square" style="font-size:128px; text-decoration: none; color: black"></i>
+          </a>
+        </div>
+        <div class ="col-lg-2" style="text-align: center">
+          <a href="mailto:arasteh2@illinois.edu" target="_blank">
+            <i class="fa fa-envelope" style="font-size:128px; text-decoration: none; color: black"></i>
+          </a>
+        </div>
+        <div class ="col-lg-2" style="text-align: center">
+          <a href="https://github.com/kouarasteh" target="_blank">
+            <i class="fa fa-github" style="font-size:128px; text-decoration: none; color: black"></i>
+          </a>
+        </div>
+        <div class ="col-lg-2" style="text-align: center">
+          <a href="https://www.instagram.com/kouarasteh/" target="_blank">
+            <i class="fa fa-instagram" style="font-size:128px; text-decoration: none; color: black"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <script>
+	   var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
