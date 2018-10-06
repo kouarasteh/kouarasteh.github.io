@@ -69,7 +69,7 @@ i{
 .card-img-overlay{
   color: black;
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: opacity 0.5s; 
   font-weight: bold;
 }
 .card-img-overlay:hover{
