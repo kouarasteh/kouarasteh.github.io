@@ -7,19 +7,34 @@
   src: url('fonts/Product Sans Bold.ttf')
   font-weight: bold;
 }
+body{
+  background-color: rgba(255,225,109,0.3);
+}
 .navbar-brand, .nav-link{
-  font-family:'ps'
+  font-family:'ps';
   font-weight: bold;
 }
 .navbar{
-  background-color: white !important
+  background-color: #FFF4D2;
+}
+.card{
+  border: none;
+  height: 100%;
+}
+.row-icons, .row-contact{
+  height: 18vw;
+}
+.card-img-top {
+    width: 100%;
+    height: 18vw;
+    object-fit: cover;
 }
 body{
   position: relative;
 }
 .toptitle{
-  margin-top: 80px;
-  margin-bottom: 80px;
+  /*margin-top: 80px;*/
+  /* margin-bottom: 80px; */
   font-family:'ps';
   font-weight: bold;
   font-size: 64px;
@@ -27,7 +42,68 @@ body{
   background-color: black;
   color: white;
 }
+#projects,#resume,#me{
+  padding-top: 56px;
+}
 #imageholder{
   position: relative;
   color: white;
+}
+.col-sm-2{
+  vertical-align: top;
+}
+i{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: inline-block;
+  transform: translate(-50%, -50%);
+}
+.card-title{
+  font-weight: bold !important;
+  font-size: 1.2vw;
+}
+.card-text{
+  font-size: 1vw;
+}
+.card-img-overlay{
+  color: black;
+  opacity: 0;
+  transition: opacity 0.5s;
+  font-weight: bold;
+}
+.card-img-overlay:hover{
+  opacity: 1;
+  background-color: rgba(255,255,255,0.9);
+  color: black;
+  font-weight: bold;
+}
+@media screen and (orientation:portrait) and (max-width:600px){
+  .row-icons{
+    height: 100vw;
+  }
+  .row-contact{
+    height: 100vw;
+  }
+  .col-sm-2{
+    width: 50vw;
+  }
+  .card{
+    margin: 0px !important;
+  }
+  .card-img-top{
+    height:inherit;
+  }
+  .card-title{
+    font-size: inherit;
+  }
+  .card-text{
+    font-size: inherit;
+  }
+  .card-img-overlay{
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+    height: 100%;
+  }
 }
