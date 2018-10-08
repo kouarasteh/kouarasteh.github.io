@@ -18,4 +18,3 @@ function addLoadEvent(func) {
 	}
 }
 addLoadEvent(preloader);
-window.alert("LOADED")
